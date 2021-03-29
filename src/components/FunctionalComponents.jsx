@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Row } from "react-bootstrap";
 
 export default function App(props) {
-  const name = useFormInput("Kartik";
+  const name = useFormInput("Kartik");
   const surname = useFormInput("Arora");
   const width = useWindowWidth();
   useDocumentTitle(name.value + " " + surname.value);
